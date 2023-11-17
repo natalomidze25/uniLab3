@@ -6,9 +6,99 @@
     <link rel="stylesheet" type="text/css" href="uniLab3.css">
 </head>
 <body>
-<h1>waitinggggg test</h1>
+<div class="container">
+    <img src="pictures/LOGO.png" alt="logo">
+    <div class="navbar">
+        <a href="#">HOME</a>
+        <a href="#">SHOP</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">BLOG</a>
+        <a href="#">CONTACT US</a>
+    </div>
+    <div class="icons">
+        <img src="pictures/shopping-cart.svg">
+    </div>
+</div>
+<div class="input-div">
+    <label for="input"></label>
+    <input placeholder="search for the product" id="input">
+</div>
+<div class="checkPictures">
+<img src="pictures/Check%20the%20best%20deals.png" alt="check">
+</div>
+<div class="cards-container">
+    <div class="card">
+        <div class="card-img">
+        <img src="pictures/image%209.png" alt="phone">
+        </div>
+        <div class="first-line">
+            <p>Galaxy A32 5G</p>
+            <div class="first-line-right">
+                <span>650 GEL
+                </span>
+                <span style="font-size: 14px; font-weight: bold" onclick="showMore()">See more...</span>
+            </div>
+        </div>
+        <img src="pictures/Line%201.jpg">
+        <p style="color: gray; font-size: 10px" >Recently Added</p>
+        <p id="sale" class="sale-p">Sale ends in :20 seconds</p>
+    </div>
+    <div class="card">
+        <div class="card-img">
+            <img src="pictures/image%209.png" alt="phone">
+        </div>
+        <div class="first-line">
+            <p>Galaxy A32 5G</p>
+            <div class="first-line-right">
+                <span>650 GEL
+                </span>
+                <span style="font-size: 14px; font-weight: bold" onclick="showMore()">See more...</span>
+            </div>
+        </div>
+        <img src="pictures/Line%201.jpg">
+        <p style="color: gray; font-size: 10px" >Recently Added</p>
+        <p class="sale-p">Sale expired</p>
+    </div>
+    <div class="card">
+        <div class="card-img">
+            <img src="pictures/image%209.png" alt="phone">
+        </div>
+        <div class="first-line">
+            <p>Galaxy A32 5G</p>
+            <div class="first-line-right">
+                <span>650 GEL
+                </span>
+                <span style="font-size: 14px; font-weight: bold" onclick="showMore()">See more...</span>
+            </div>
+        </div>
+        <img src="pictures/Line%201.jpg">
+        <p style="color: gray; font-size: 10px" >Recently Added</p>
+        <p class="sale-p">Sale expired</p>
+    </div>
+    <div class="card">
+        <div class="card-img">
+            <img src="pictures/image%209.png" alt="phone">
+        </div>
+        <div class="first-line">
+            <p>Galaxy A32 5G</p>
+            <div class="first-line-right">
+                <span>650 GEL
+                </span>
+                <span style="font-size: 14px; font-weight: bold" onclick="showMore()">See more...</span>
+            </div>
+        </div>
+        <img src="pictures/Line%201.jpg">
+        <p style="color: gray; font-size: 10px" >Recently Added</p>
+    </div>
 
 
+</div>
+<div class="background" id="bg">
+    <div class="pop-up">
+        <p>hello</p>
+        <button onclick="close()" id="button">Close</button>
+    </div>
+</div>
 <script src="uniLab3.js"></script>
 </body>
 </html>

@@ -1,0 +1,91 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+
+}
+.container a{
+    text-decoration-line: none;
+    padding: 0.5rem;
+    color: black;
+
+}
+.navbar{
+    display: inline-block;
+    margin: auto;
+}
+.navbar a:hover{
+    color: blue;
+    text-decoration-line: underline;
+}
+.input-div{
+    text-align: center;
+    background-color: blue;
+}
+#input{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+.checkPictures{
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.card{
+    width: 5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.first-line{
+    display: flex;
+    justify-content: space-between;
+}
+.first-line-right{
+    max-width: 65px;
+    display: flex;
+    flex-direction: column;
+}
+.card-img{
+    padding: 5rem;
+    box-shadow: 5px 4px 7px -3px gray;
+}
+.background{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background: #000000b8;
+    top: 0;
+    left: 0;
+}
+.pop-up{
+    width: 100px;
+    margin: auto;
+    background: white;
+}
+.bg-show{
+    display: block !important;
+
+}
+.sale-p{
+    color: red;
+    font-weight: bold;
+}
+.sale-p:hover{
+    text-decoration-line: underline;
+}
